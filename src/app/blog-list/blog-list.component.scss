@@ -1,0 +1,37 @@
+.posts-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 300px; /* Set desired column width */
+  }
+  
+  .post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .post-content {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .post-author, .post-date {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .read-more-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 16px;
+  }
+  
+  .read-more-link:hover {
+    text-decoration: underline;
+  }
